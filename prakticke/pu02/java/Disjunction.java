@@ -33,7 +33,7 @@ public class Disjunction extends Formula {
         return new Disjunction(this);
     }
 
-    Formula substitude(Formula what, Formula replacement) {
+    Formula substitute(Formula what, Formula replacement) {
         if (this.equals(what)) {
             Formula res = replacement.copy();
             return res;

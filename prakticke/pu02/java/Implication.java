@@ -15,7 +15,7 @@ public class Implication extends BinaryFormula{
     }
 
     Boolean isSatisfied(Map<String, Boolean> v) {
-        return !(leftSide().isSatisfied(v) || rightSide().isSatisfied(v));
+        return (!leftSide().isSatisfied(v) || rightSide().isSatisfied(v));
     }
 
     @Override Implication copy() {
