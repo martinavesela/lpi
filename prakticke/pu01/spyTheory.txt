@@ -1,9 +1,9 @@
 c Kazdy je bud Rus alebo Nemec:
-¬RS ¬NS
+-RS -NS
 NS RS
-¬RM ¬NM
+-RM -NM
 NM RM
-¬RE ¬NE
+-RE -NE
 NE RE
 
 c Prave jeden je Rus, ostatni dvaja su nemci:
@@ -36,10 +36,10 @@ RE NE RM
 RE NE NE
 
 c Kazdy Rus musi byt spion:
-¬RS SS
-¬RM SM
-¬RE SE
+-RS SS
+-RM SM
+-RE SE
 
-c Stirlitz: „Muller, ty si taky Nemec, ako som ja Rus“:
-¬NM RS
-¬RS NM
+c Stirlitz: Muller, ty si taky Nemec, ako som ja Rus:
+-NM RS
+-RS NM
